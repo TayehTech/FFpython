@@ -1,6 +1,5 @@
 from . import AVOptions
-from .utils import Filter
-from .enumerators import *
+from .filter_class import Filter
 from dataclasses import dataclass
 
 @dataclass(repr=False, eq=False)
